@@ -24,8 +24,40 @@ def retornar_valores(texto):
 def substituir_string(texto):
     nova_txt = texto.replace("Aula", "Bunda")
     return nova_txt
+    bunda = texto.find("Bunda")
+    return bunda
 
-print(tamanho_string(texto))
-print(contar_a(texto))
-print(retornar_valores(texto))
-print(substituir_string(texto))
+def variacoes(texto):
+    print(texto.upper())
+    print(texto.lower())
+    print(texto.title())
+    print(texto.capitalize())
+    print(texto.swapcase())
+
+def strip ():
+    nome = str(input("Digite seu nome: "))
+    print("Olá, ", nome, "!")
+    print("Olá, ", nome.lstrip(), "!")
+    print("Olá, ", nome.rstrip(), "!")
+    print("Olá, ", nome.strip(), "!")
+
+def split():
+    texto = str(input("Escreva um texto: "))
+    print("Numero de palavras:", len(texto.split()))
+
+def join():
+    lista = ["Python", "é", "uma", "linguagem", "de", "programação"]
+    texto = " ".join(lista)
+    print(texto)
+
+
+        
+#--------------------------------------------------------------------
+
+def main():
+    exibir_string(texto)
+    tamanho_string(texto)
+    contar_a(texto)
+    retornar_valores(texto)
+    substituir_string(texto)
+    variacoes(texto)
