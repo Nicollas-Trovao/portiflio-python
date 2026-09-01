@@ -9,7 +9,9 @@ def verifica_regex(texto: str) -> None:
 
 def pesquisar_email(texto: str, escondido: bool) -> None:
     padrao = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
+
     resultado = re.search(padrao, texto)
+    
     if resultado:
         if escondido:
             email = resultado.group()
