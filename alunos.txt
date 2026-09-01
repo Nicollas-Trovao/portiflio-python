@@ -1,0 +1,3 @@
+Nicollas,6.0
+Jose,4.0
+Gabriel,7.0
