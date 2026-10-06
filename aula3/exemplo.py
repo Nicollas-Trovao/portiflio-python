@@ -1,9 +1,5 @@
 import os
 
-
-
-
-
 diretorio_arquivo = os.path.dirname(os.path.abspath(__file__))
 caminho= '\\dados.txt'
 def ler_arquivo(caminho_arquivo):
