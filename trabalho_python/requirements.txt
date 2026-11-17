@@ -1,0 +1,2 @@
+# Nenhuma dependência externa: o projeto usa apenas a biblioteca padrão
+# do Python (tkinter, sqlite3, csv, datetime, unittest).
